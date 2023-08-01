@@ -29,6 +29,7 @@ header {
 h1 {
   font-size: 36px;
   margin-bottom: 10px;
+  margin-top: 10px;
   font-family: Arvo;
 }
 
@@ -45,8 +46,6 @@ p {
 
 img {
   padding: 5px;
-  width: auto;
-  height: auto;
 }
 
 nav ul li a:hover {
@@ -80,68 +79,76 @@ footer {
   background-color: #f7f8fa;
 }
 
-
-#skills{
+#skills {
   max-width: 1100px;
 }
 
-#resume{
-  margin-left: 0;
+.resume-name {
+  background-color: #f7f8fa;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
 }
 
-.headings .resume-name{
-  text-align: center;
-  font-size: 3rem;
+
+.headings {
+  background-color: #f7f8fa;
+  text-align: left;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.profile img {
+  padding: 20px;
+}
+
+.profile .col-md-6 {
+  padding: 20px;
 }
 
 .nav-link {
   color: #333;
 }
 
-.name {
-  font-size: 100px;
-margin-bottom: 20px;
+@media (max-width: 768px) {
+  .projects {
+    display: block;
+  }
+
+  .projects-images {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-.title {
-  font-family: Montserrat;
-  font-weight: bold;
-margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.profile {
+.projects {
   display: flex;
-  min-width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-.col-md-6 {
-  padding: 5px;
-}
-
-.profile img {
-  padding-left: 100px;
-}
-
-.profile .col-md-6 {
-  padding-right: 30px;
-
-}
-
-.headings{
-  background-color: #f7f8fa;
-}
-
-.projects-images{
+.projects-images {
+  width: 30%;
+  max-width: 250px;
   border-radius: 50%;
 }
 
-.projects{
-  display:flex;
-  align-items: center;
-  justify-content: center;
+.projects div {
+  width: 65%;
+}
+
+.projects h6 {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.projects p {
+  font-family: Montserrat;
 }
 
 .projects .nav-link:hover{
