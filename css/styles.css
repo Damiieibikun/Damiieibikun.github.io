@@ -45,6 +45,8 @@ p {
 
 img {
   padding: 5px;
+  width: auto;
+  height: auto;
 }
 
 nav ul li a:hover {
