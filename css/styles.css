@@ -110,7 +110,7 @@ footer {
   color: #333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .projects {
     display: block;
   }
