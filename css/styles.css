@@ -84,7 +84,7 @@ footer {
 }
 
 .resume-name {
-  background-color: #f7f8fa;
+  color: #fff;
   text-align: center;
   font-size: 3rem;
   padding: 10px;
@@ -97,7 +97,9 @@ footer {
   font-size: 1rem;
   padding: 10px;
 }
-
+.headings-name{
+  background-color: #404040;
+}
 .profile img {
   padding: 20px;
 }
