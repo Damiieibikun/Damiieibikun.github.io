@@ -165,9 +165,11 @@ footer {
 }
 
 i.hidden {
-      display: none;
+  display: inline;
+  filter: blur(2px);
     }
     
 i:hover + i.hidden {
-      display: inline;
+  display: inline;
+  filter: none;
     }
