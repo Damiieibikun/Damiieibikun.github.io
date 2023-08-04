@@ -157,3 +157,17 @@ footer {
   text-decoration: underline;
   color: #333;
 }
+
+.contact-div{
+  width: 500px;
+  height: 500px;
+
+}
+
+i.hidden {
+      display: none;
+    }
+    
+i:hover + i.hidden {
+      display: inline;
+    }
