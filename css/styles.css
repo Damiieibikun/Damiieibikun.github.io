@@ -166,7 +166,7 @@ footer {
 
 i.hidden {
   display: inline;
-  filter: blur(2px);
+  filter: blur(4px);
     }
     
 i:hover + i.hidden {
