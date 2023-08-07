@@ -73,12 +73,6 @@ footer {
   margin-top: auto;
 }
 
-/* #navigation-bar {
-  font-family: Bacasime Antique;
-  font-size: large;
-  text-align: center;
-  background-color: #f7f8fa;
-} */
 
 .container.fixed-navigation-bar {
   position: fixed;
