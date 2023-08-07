@@ -72,12 +72,20 @@ footer {
   margin-top: auto;
 }
 
-#navigation-bar {
+/* #navigation-bar {
   font-family: Bacasime Antique;
   font-size: large;
   text-align: center;
   background-color: #f7f8fa;
-}
+} */
+
+.container.navigation-bar {
+  position: fixed;
+  top: 0;
+  max-width: inherit;
+  background-color: #f7f8fa;
+  padding-left: 8vh;
+  }
 
 .resume-name {
   color: #404040;
