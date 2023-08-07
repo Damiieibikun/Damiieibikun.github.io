@@ -82,7 +82,7 @@ footer {
 .container.navigation-bar {
   position: fixed;
   top: 0;
-  bottom: 20px;
+  margin-bottom: 20px;
   max-width: inherit;
   background-color: #f7f8fa;
   }
