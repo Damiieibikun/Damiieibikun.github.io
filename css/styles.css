@@ -83,7 +83,7 @@ footer {
   position: fixed;
   top: 0;
   margin-bottom: 20px;
-  max-width: inherit;
+  /* max-width: inherit; */
   background-color: #f7f8fa;
   }
 
