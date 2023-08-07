@@ -79,13 +79,12 @@ footer {
   background-color: #f7f8fa;
 } */
 
-/* .container.navigation-bar {
+.container.fixed-navigation-bar {
   position: fixed;
   top: 0;
-  margin-bottom: 20px;
   max-width: inherit;
   background-color: #f7f8fa;
-  } */
+  }
 
 .resume-name {
   color: #404040;
