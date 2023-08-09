@@ -64,6 +64,23 @@ hr {
   border-top: 1px solid #ccc;
 }
 
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+}
+
+td:last-child {
+  padding-left: 20px;
+}
+
 footer {
   background-color: #f7f8fa;
   color: #333;
@@ -98,6 +115,11 @@ footer {
 .headings-name{
   background-color: #f7f8fa;
 }
+
+.certificates{
+  display: flex;
+}
+
 .profile img {
   padding: 20px;
 }
