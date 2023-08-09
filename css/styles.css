@@ -156,12 +156,6 @@ footer {
   color: #333;
 }
 
-.contact-div{
-  width: 500px;
-  height: 500px;
-
-}
-
 i.hidden {
   display: inline;
   filter: blur(4px);
