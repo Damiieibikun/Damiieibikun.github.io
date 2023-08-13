@@ -1,3 +1,5 @@
+/* Tags styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -91,6 +93,9 @@ footer {
 }
 
 
+
+/* Navigation styles */
+
 .container.fixed-navigation-bar {
   position: fixed;
   top: 0;
@@ -98,13 +103,12 @@ footer {
   background-color: #f7f8fa;
   }
 
-.resume-name {
-  color: #404040;
-  text-align: center;
-  font-size: 3rem;
-  padding: 10px;
-}
+  .nav-link {
+    color: #333;
+  }
 
+
+  /* Index styles */
 
 .headings {
   background-color: #f7f8fa;
@@ -125,9 +129,21 @@ footer {
   padding: 20px;
 }
 
-.nav-link {
-  color: #333;
+.col-md-6{
+  text-align: center;
 }
+
+
+/* About/Resume styles */
+.resume-name {
+  color: #404040;
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+}
+
+
+/* projects styles */
 
 @media (max-width: 700px) {
   .projects {
@@ -174,6 +190,9 @@ footer {
   text-decoration: underline;
   color: #333;
 }
+
+
+/* contacts styles */
 
 i.hidden {
   display: inline;
