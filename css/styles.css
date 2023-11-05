@@ -104,11 +104,17 @@ footer {
 
 /* Navigation styles */
 
+
+/* .fixed-navigation-bar {
+  z-index: 1000;
+} */
+
 .container.fixed-navigation-bar {
   position: fixed;
   top: 0;
   max-width: inherit;
   background-color: #f7f8fa;
+  z-index: 1000;
   }
 
   
@@ -169,11 +175,6 @@ footer {
   margin-bottom: 40px;
 }
 
-/* .projects-images {
-  width: 30%;
-  max-width: 250px;
-  border-radius: 50%;
-} */
 
 .projects div {
   width: 65%;
