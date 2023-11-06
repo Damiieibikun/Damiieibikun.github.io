@@ -104,11 +104,6 @@ footer {
 
 /* Navigation styles */
 
-
-/* .fixed-navigation-bar {
-  z-index: 1000;
-} */
-
 .container.fixed-navigation-bar {
   position: fixed;
   top: 0;
