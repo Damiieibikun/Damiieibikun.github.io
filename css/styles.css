@@ -150,10 +150,10 @@ footer {
 
 /* projects styles */
 
-@media (max-width: 700px) {
-  /* .projects {
+/* @media (max-width: 700px) {
+  .projects {
     display: block;
-  } */
+  }
 
   .projects-images {
     width: 100%;
@@ -163,7 +163,7 @@ footer {
   }
 }
 
-/* .projects {
+.projects {
   display: flex;
   align-items: center;
   justify-content: space-between;
