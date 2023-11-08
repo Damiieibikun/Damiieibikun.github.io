@@ -139,15 +139,6 @@ footer {
 }
 
 
-/* About/Resume styles */
-/* .resume-name {
-  color: #404040;
-  text-align: center;
-  font-size: 3rem;
-  padding: 10px;
-} */
-
-
 /* projects styles */
 
 /* @media (max-width: 700px) {
@@ -161,14 +152,7 @@ footer {
     display: block;
     margin: 0 auto;
   }
-}
-
-.projects {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
-} */
+}*/
 
 
 .projects div {
