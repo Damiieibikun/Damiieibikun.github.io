@@ -139,42 +139,5 @@ footer {
 }
 
 
-/* projects styles */
-
-/* @media (max-width: 700px) {
-  .projects {
-    display: block;
-  }
-
-  .projects-images {
-    width: 100%;
-    max-width: 200px;
-    display: block;
-    margin: 0 auto;
-  }
-}*/
 
 
-.projects div {
-  width: 65%;
-}
-
-.projects h6 {
-  font-size: 18px;
-  font-family: Montserrat;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-
-/* contacts styles */
-
-i.hidden {
-  display: inline;
-  filter: blur(4px);
-    }
-    
-i:hover + i.hidden {
-  display: inline;
-  filter: none;
-    }
