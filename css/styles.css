@@ -110,6 +110,11 @@ footer {
   max-width: inherit;
   background-color: #f7f8fa;
   z-index: 1000;
+  padding: 0 30px;
+  }
+
+  .navbar-nav{
+    gap: 30px;
   }
 
   
