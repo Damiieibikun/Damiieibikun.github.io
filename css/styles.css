@@ -117,6 +117,10 @@ footer {
     gap: 30px;
   }
 
+  #navbarNav{
+    justify-content: end;
+  }
+
   
   /* Index styles */
 
